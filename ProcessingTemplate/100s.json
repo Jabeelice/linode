@@ -1,4 +1,7 @@
 {
+  "highRiskStatisticMethod": "PERCENT",
+  "highRiskStatisticPeriod": "ALL",
+  "highRiskThreshold": 5,
   "owner": "jabee.cosme@infinitedata.com",
   "priority": "0",
   "processingType": "TASK",
@@ -9,8 +12,340 @@
   "workspace": "testasdasd",
   "customFieldValues": {
   },
+  "forceCompletedCondition": {
+    "criteria": 
+    [
+      {
+        "fieldName": "${READY.TO.RUN}",
+        "operator": "EQ",
+        "value": "NO"
+      }
+    ],
+    "operator": "AND"
+  },
   "processingCommand": {
     "waitDuration": "PT80S",
     "waitMode": "FOR"
-  }
+  },
+  "actions": 
+  [
+    {
+      "processingActionType": "SET_CONTEXT_VARIABLE_VALUE",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_LOADED",
+      "processingCommand": {
+        "actionTargetType": "SELF",
+        "keepForcedStatus": true,
+        "operator": "SET",
+        "restartType": "RESTART_FROM_BEGINNING",
+        "value": "abcde",
+        "variable": "123"
+      }
+    },
+    {
+      "processingActionType": "ADD_TAG",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_LOADED",
+      "processingCommand": {
+        "actionTargetType": "SELF",
+        "keepForcedStatus": true,
+        "operator": "",
+        "restartType": "RESTART_FROM_BEGINNING",
+        "value": "a"
+      }
+    },
+    {
+      "processingActionType": "SET_CONTEXT_VARIABLE_VALUE",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_LOADED",
+      "processingCommand": {
+        "actionTargetType": "SELF",
+        "keepForcedStatus": true,
+        "operator": "SET",
+        "restartType": "RESTART_FROM_BEGINNING",
+        "value": "asdasdasd",
+        "variable": "sadad"
+      }
+    },
+    {
+      "processingActionType": "SET_CONTEXT_VARIABLE_VALUE",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_LOADED",
+      "processingCommand": {
+        "actionTargetType": "SELF",
+        "keepForcedStatus": true,
+        "operator": "SET",
+        "restartType": "RESTART_FROM_BEGINNING",
+        "value": "asdasdasd",
+        "variable": "sadad"
+      }
+    },
+    {
+      "processingActionType": "SET_CONTEXT_VARIABLE_VALUE",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_LOADED",
+      "processingCommand": {
+        "actionTargetType": "SELF",
+        "keepForcedStatus": true,
+        "operator": "SET",
+        "restartType": "RESTART_FROM_BEGINNING",
+        "value": "asdasdasd",
+        "variable": "sadad"
+      }
+    },
+    {
+      "processingActionType": "SET_CONTEXT_VARIABLE_VALUE",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_LOADED",
+      "processingCommand": {
+        "actionTargetType": "SELF",
+        "keepForcedStatus": true,
+        "operator": "SET",
+        "restartType": "RESTART_FROM_BEGINNING",
+        "value": "asdasdasd",
+        "variable": "sadad"
+      }
+    },
+    {
+      "processingActionType": "SET_CONTEXT_VARIABLE_VALUE",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_LOADED",
+      "processingCommand": {
+        "actionTargetType": "SELF",
+        "keepForcedStatus": true,
+        "operator": "SET",
+        "restartType": "RESTART_FROM_BEGINNING",
+        "value": "asdasdasd",
+        "variable": "sadad"
+      }
+    },
+    {
+      "processingActionType": "SET_CONTEXT_VARIABLE_VALUE",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_LOADED",
+      "processingCommand": {
+        "actionTargetType": "SELF",
+        "keepForcedStatus": true,
+        "operator": "SET",
+        "restartType": "RESTART_FROM_BEGINNING",
+        "value": "asdasdasd",
+        "variable": "sadad"
+      }
+    },
+    {
+      "processingActionType": "SET_CONTEXT_VARIABLE_VALUE",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_LOADED",
+      "processingCommand": {
+        "actionTargetType": "SELF",
+        "keepForcedStatus": true,
+        "operator": "SET",
+        "restartType": "RESTART_FROM_BEGINNING",
+        "value": "asdasdasd",
+        "variable": "sadad"
+      }
+    },
+    {
+      "processingActionType": "SET_CONTEXT_VARIABLE_VALUE",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_LOADED",
+      "processingCommand": {
+        "actionTargetType": "SELF",
+        "keepForcedStatus": true,
+        "operator": "SET",
+        "restartType": "RESTART_FROM_BEGINNING",
+        "value": "asdasdasd",
+        "variable": "sadad"
+      }
+    },
+    {
+      "processingActionType": "SET_CONTEXT_VARIABLE_VALUE",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_LOADED",
+      "processingCommand": {
+        "actionTargetType": "SELF",
+        "keepForcedStatus": true,
+        "operator": "SET",
+        "restartType": "RESTART_FROM_BEGINNING",
+        "value": "asdasdasd",
+        "variable": "sadad"
+      }
+    },
+    {
+      "processingActionType": "SET_CONTEXT_VARIABLE_VALUE",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_LOADED",
+      "processingCommand": {
+        "actionTargetType": "SELF",
+        "keepForcedStatus": true,
+        "operator": "SET",
+        "restartType": "RESTART_FROM_BEGINNING",
+        "value": "asdasdasd",
+        "variable": "sadad"
+      }
+    },
+    {
+      "processingActionType": "SET_CONTEXT_VARIABLE_VALUE",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_LOADED",
+      "processingCommand": {
+        "actionTargetType": "SELF",
+        "keepForcedStatus": true,
+        "operator": "SET",
+        "restartType": "RESTART_FROM_BEGINNING",
+        "value": "asdasdasd",
+        "variable": "sadad"
+      }
+    },
+    {
+      "processingActionType": "ADD_TAG",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_LOADED",
+      "processingCommand": {
+        "actionTargetType": "SELF",
+        "keepForcedStatus": true,
+        "operator": "",
+        "restartType": "RESTART_FROM_BEGINNING",
+        "value": "b"
+      }
+    },
+    {
+      "processingActionType": "SET_CONTEXT_VARIABLE_VALUE",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_LOADED",
+      "processingCommand": {
+        "actionTargetType": "SELF",
+        "keepForcedStatus": true,
+        "operator": "SET",
+        "restartType": "RESTART_FROM_BEGINNING",
+        "value": "asdasdas",
+        "variable": "asdasd"
+      }
+    },
+    {
+      "processingActionType": "SET_CONTEXT_VARIABLE_VALUE",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_LOADED",
+      "processingCommand": {
+        "actionTargetType": "SELF",
+        "keepForcedStatus": true,
+        "operator": "SET",
+        "restartType": "RESTART_FROM_BEGINNING",
+        "value": "sdfsdfsd",
+        "variable": "sdfsdf"
+      }
+    },
+    {
+      "processingActionType": "ADD_TAG",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_LOADED",
+      "processingCommand": {
+        "actionTargetType": "SELF",
+        "keepForcedStatus": true,
+        "restartType": "RESTART_FROM_BEGINNING",
+        "value": "a"
+      }
+    },
+    {
+      "processingActionType": "ADD_TAG",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_LOADED",
+      "processingCommand": {
+        "actionTargetType": "SELF",
+        "keepForcedStatus": true,
+        "restartType": "RESTART_FROM_BEGINNING",
+        "value": "a"
+      }
+    },
+    {
+      "processingActionType": "ADD_TAG",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_LOADED",
+      "processingCommand": {
+        "actionTargetType": "SELF",
+        "keepForcedStatus": true,
+        "restartType": "RESTART_FROM_BEGINNING",
+        "value": "a"
+      }
+    },
+    {
+      "processingActionType": "ADD_TAG",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_LOADED",
+      "processingCommand": {
+        "actionTargetType": "SELF",
+        "keepForcedStatus": true,
+        "restartType": "RESTART_FROM_BEGINNING",
+        "value": "a"
+      }
+    },
+    {
+      "processingActionType": "ADD_TAG",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_LOADED",
+      "processingCommand": {
+        "actionTargetType": "SELF",
+        "keepForcedStatus": true,
+        "restartType": "RESTART_FROM_BEGINNING",
+        "value": "a"
+      }
+    },
+    {
+      "processingActionType": "ADD_TAG",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_LOADED",
+      "processingCommand": {
+        "actionTargetType": "SELF",
+        "keepForcedStatus": true,
+        "restartType": "RESTART_FROM_BEGINNING",
+        "value": "a"
+      }
+    },
+    {
+      "processingActionType": "ADD_TAG",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_LOADED",
+      "processingCommand": {
+        "actionTargetType": "SELF",
+        "keepForcedStatus": true,
+        "restartType": "RESTART_FROM_BEGINNING",
+        "value": "a"
+      }
+    }
+  ],
+  "dependencies": 
+  [
+    {
+      "dependencyType": "RESOURCE",
+      "name": "INIT2",
+      "processingStatus": "COMPLETED",
+      "processingType": "TASK",
+      "resource": "INIT2",
+      "resourcePermits": "1",
+      "resourceType": "STOCK",
+      "serverNodeType": "INTERNAL",
+      "taskType": "WAIT"
+    },
+    {
+      "dependencyType": "RESOURCE",
+      "lockState": "SHARED",
+      "name": "6665_lock",
+      "processingStatus": "COMPLETED",
+      "processingType": "TASK",
+      "resource": "6665_lock",
+      "resourceType": "LOCK",
+      "serverNodeType": "INTERNAL",
+      "taskType": "WAIT"
+    }
+  ],
+  "designParameters": 
+  [
+    {
+      "defaultValue": "/appl/infa/Cache/data/source_delivery/SPOT/SPOT_FINREP/TRIGGER_SPOT_FINREP_ANT_DAILY_DM.txt",
+      "editorType": "TEXT",
+      "name": "FILE_LOCATION",
+      "required": true,
+      "title": "FILE_LOCATION"
+    }
+  ]
 }
