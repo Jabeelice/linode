@@ -3,7 +3,6 @@
   "highRiskStatisticPeriod": "ALL",
   "highRiskThreshold": 5,
   "owner": "jabee.cosme@infinitedata.com",
-  "passBy": false,
   "priority": "0",
   "processingType": "TRIGGER",
   "statisticMethod": "AVERAGE",
