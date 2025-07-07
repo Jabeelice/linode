@@ -1,0 +1,47 @@
+{
+  "highRiskStatisticMethod": "PERCENT",
+  "highRiskStatisticPeriod": "WEEK",
+  "highRiskThreshold": 5,
+  "owner": "jabee.cosme@infinitedata.com",
+  "priority": "0",
+  "processingType": "TASK",
+  "serverNodeType": "INTERNAL",
+  "statisticMethod": "AVERAGE",
+  "statisticPeriod": "MONTH",
+  "taskType": "WAIT",
+  "customFieldValues": {
+  },
+  "processingCommand": {
+    "waitDuration": "PT5S",
+    "waitMode": "FOR"
+  },
+  "actions": 
+  [
+    {
+      "processingActionType": "SET_SEMAPHORE_STATE",
+      "processingEventCategory": "PROCESSING",
+      "processingEventType": "PROCESSING_COMPLETED",
+      "processingCommand": {
+        "operator": "",
+        "resource": "Semaphore_1",
+        "timestampRelation": "EQ",
+        "timestampSelector": "SAME",
+        "value": "ON"
+      }
+    }
+  ],
+  "dependencies": 
+  [
+    {
+      "dependencyType": "RESOURCE",
+      "name": "Semaphore_1",
+      "processingStatus": "COMPLETED",
+      "processingType": "TASK",
+      "resource": "Semaphore_1",
+      "resourceType": "BINARY_SEMAPHORE",
+      "semaphoreState": "ON",
+      "serverNodeType": "INTERNAL",
+      "taskType": "WAIT"
+    }
+  ]
+}
