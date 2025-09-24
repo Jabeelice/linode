@@ -15,21 +15,6 @@
     "waitDuration": "PT100S",
     "waitMode": "FOR"
   },
-  "actions": 
-  [
-    {
-      "processingActionType": "SET_SEMAPHORE_STATE",
-      "processingEventCategory": "PROCESSING",
-      "processingEventType": "PROCESSING_COMPLETED",
-      "processingCommand": {
-        "operator": "",
-        "resource": "Semaphore_1",
-        "timestampRelation": "EQ",
-        "timestampSelector": "SAME",
-        "value": "ON"
-      }
-    }
-  ],
   "dependencies": 
   [
     {
