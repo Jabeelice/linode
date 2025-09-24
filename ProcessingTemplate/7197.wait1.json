@@ -14,5 +14,19 @@
   "processingCommand": {
     "waitDuration": "PT100S",
     "waitMode": "FOR"
-  }
+  },
+  "dependencies": 
+  [
+    {
+      "dependencyType": "RESOURCE",
+      "name": "Semaphore_1",
+      "processingStatus": "COMPLETED",
+      "processingType": "TASK",
+      "resource": "Semaphore_1",
+      "resourceType": "BINARY_SEMAPHORE",
+      "semaphoreState": "ON",
+      "serverNodeType": "INTERNAL",
+      "taskType": "WAIT"
+    }
+  ]
 }
