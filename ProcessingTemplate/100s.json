@@ -24,7 +24,7 @@
     "operator": "AND"
   },
   "processingCommand": {
-    "waitDuration": "PT180S",
+    "waitDuration": "PT5S",
     "waitMode": "FOR"
   },
   "actions": 
