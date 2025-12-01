@@ -8,6 +8,10 @@
   "serverNodeType": "INTERNAL",
   "statisticMethod": "AVERAGE",
   "statisticPeriod": "MONTH",
+  "tags": 
+  [
+    "7778"
+  ],
   "taskType": "WAIT",
   "workspace": "testasdasd",
   "customFieldValues": {

@@ -12,11 +12,22 @@
   "customFieldValues": {
   },
   "processingCommand": {
-    "waitDuration": "PT100S",
+    "waitDuration": "PT5M",
     "waitMode": "FOR"
   },
   "dependencies": 
   [
+    {
+      "dependencyType": "RESOURCE",
+      "name": "INIT",
+      "processingStatus": "COMPLETED",
+      "processingType": "TASK",
+      "resource": "INIT",
+      "resourcePermits": "600",
+      "resourceType": "STOCK",
+      "serverNodeType": "INTERNAL",
+      "taskType": "WAIT"
+    },
     {
       "dependencyType": "RESOURCE",
       "name": "Semaphore_1",
